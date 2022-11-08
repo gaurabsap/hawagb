@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-style: solid;
+    border-color: lightseagreen;
+}
+
+.main:hover {
+    animation: gaurab;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    
+}
+
+@keyframes gaurab {
+    0% {
+        background-color: blue;
+    }
+    15% {
+        background-color: red;
+    }
+    35% {
+        background-color: wheat;
+    }
+    50% {
+        background-image: url('y.jpg');
+        background-color: antiquewhite;
+        
+    }
+    75% {
+        background-color: rgb(44, 34, 34);
+    }
+    100% {
+        background-color: rgb(55, 71, 21);
+    }
+    
+}
